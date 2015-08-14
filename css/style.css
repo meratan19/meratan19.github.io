@@ -62,9 +62,9 @@ body {
 
 .main-header-text {
     width: 90vw;
-    -webkit-animation: fadein 2s;
-    -ms-animation: fadein 2s;
-    animation: fadein 2s;
+    -webkit-animation: fadein 4s;
+    -ms-animation: fadein 4s;
+    animation: fadein 4s;
     margin-bottom: 60px;
     font-size: 41px;
     font-weight: 300;
