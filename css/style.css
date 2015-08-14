@@ -62,13 +62,17 @@ body {
 
 .main-header-text {
     width: 90vw;
-    -webkit-animation: fadein 4s;
-    -ms-animation: fadein 4s;
-    animation: fadein 4s;
+    -webkit-animation: fadein 3s;
+    -ms-animation: fadein 3s;
+    animation: fadein 3s;
     margin-bottom: 60px;
     font-size: 41px;
     font-weight: 300;
     line-height: 60px;
+}
+
+.main-header-text:hover {
+  box-shadow: 0 0 50px rgba(255,255,255,0.3);
 }
 
 @keyframes fadein {
