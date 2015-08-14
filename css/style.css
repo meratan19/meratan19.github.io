@@ -127,10 +127,3 @@ body {
         opacity: 1;
     }
 }
-
-.img {
-    border-radius: 100%;
-    border: 3px solid lightgray;
-    margin: auto;
-    width: 120px;
-}
