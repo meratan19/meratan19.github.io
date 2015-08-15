@@ -17,7 +17,7 @@
 
 .navbar {
     border-radius: 0px;
-    background-color: darkslateblue;
+    background-color: transparent;
     color: white;
     *zoom: 1;
     float: left;
@@ -112,4 +112,24 @@
 
 .navbar .navbar-links .navbar-link:last-child {
     border-right: none;
+}
+
+
+
+.navbar .container{
+    width: 940px;
+}
+
+@media (min-width: 1200px) {
+    .navbar .container
+    {
+        width: 1170px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+    .navbar .container
+    {
+        width: 724px;
+    }    
 }

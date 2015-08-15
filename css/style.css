@@ -18,7 +18,7 @@ body {
     font-family: inherit;
     font-size: 100%;
     vertical-align: baseline;
-    height: 94.7%;
+    height: 100%;
 }
 
 body {
@@ -87,7 +87,7 @@ body {
 
 
 .carousel {
-    margin-top: 50px;
+    //margin-top: 50px;
     margin-bottom: 0px;
      height: 100%;
   //  margin: 0px auto;
