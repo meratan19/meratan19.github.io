@@ -18,7 +18,7 @@ body {
     font-family: inherit;
     font-size: 100%;
     vertical-align: baseline;
-    height:100%;
+    height: 100%;
 }
 
 body {
@@ -39,16 +39,17 @@ body {
     font-feature-settings: 'liga', 'kern';
 }
 
+.logo {
+    max-width: 20vh;
+    max-height: 20vh;
+}
+
 .main-header {
     height: 100%;
     width: 100%;
     color: #fff;
     text-align: center;
 }
-
-
-
-
 
 .main-header-content {
     position: absolute;
@@ -58,9 +59,9 @@ body {
     transform-style: preserve-3d;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -40%);
+    -ms-transform: translate(-50%, -40%);
+    transform: translate(-50%, -40%);
 }
 
 .main-header-text {
@@ -69,14 +70,19 @@ body {
     -ms-animation: fadein 3s;
     animation: fadein 3s;
     margin-bottom: 60px;
-    font-size: 41px;
-    font-weight: 300;
-    line-height: 60px;
+    font-size: 111px;
+    font-weight: bold;
+    line-height: 160px;
+    text-align: center;
+    color: #fff;
 }
 
+
+/*
 .main-header-text:hover {
     box-shadow: 0 0 50px rgba(207, 46, 46, 0.3);
 }
+*/
 
 @keyframes fadein {
     from {
@@ -136,20 +142,15 @@ body {
 }
 
 .carousel {
-    background: gray8;
     margin-top: 0px;
     margin: 0px auto;
-  
 }
 
-
-
-.carousel, 
-.carousel-inner, 
+.carousel,
+.carousel-inner,
 .carousel-inner .item {
     height: 100%;
 }
-
 
 .carousel-control {
     position: absolute;
@@ -185,25 +186,21 @@ body {
     background-repeat: repeat-x
 }
 
-
 .carousel-fade {
     .carousel-inner {
         .item {
             transition-property: opacity;
         }
-        
         .item,
         .active.left,
         .active.right {
             opacity: 0;
         }
-
         .active,
         .next.left,
         .prev.right {
             opacity: 1;
         }
-
         .next,
         .prev,
         .active.left,
@@ -212,27 +209,37 @@ body {
             transform: translate3d(0, 0, 0);
         }
     }
-
     .carousel-control {
         z-index: 2;
     }
 }
 
- 
-.carousel, 
-.carousel-inner, 
+.carousel,
+.carousel-inner,
 .carousel-inner .item {
     height: 100%;
 }
 
 .item:nth-child(1) {
-    background: #a0fb71;
+    background: #22c8ff;
 }
 
 .item:nth-child(2) {
-    background: #58f8ab;
+    background: #00bfff;
 }
 
 .item:nth-child(3) {
-    background: #12f6e9;
+    background: #00a6dd;
+}
+
+.item:nth-child(4) {
+    background: #22c8ff;
+}
+
+.item:nth-child(5) {
+    background: #00bfff;
+}
+
+.item:nth-child(6) {
+    background: #00a6dd;
 }
