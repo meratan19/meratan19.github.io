@@ -97,6 +97,7 @@ body {
 .carousel-inner,
 .carousel-inner .item {
     height: 100%;
+    background: #22c8ff;
 }
 
 .carousel-control {
@@ -162,6 +163,7 @@ body {
 }
 
 
+/*
 .item:nth-child(1) {
     background: #22c8ff;
 }
@@ -201,6 +203,11 @@ body {
 .item:nth-child(10) {
     background: #22c8ff;//#00a6dd;
 }
+
+.item:nth-child(11) {
+    background: #22c8ff;//#00a6dd;
+}
+*/
 
 @keyframes fadein {
     from {
