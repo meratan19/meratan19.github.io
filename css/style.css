@@ -92,6 +92,19 @@ body {
     transform: translate(-50%, -40%);
 }
 
+.main-header-content-about {
+    position: absolute;
+    -webkit-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    top: 45%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -40%);
+    -ms-transform: translate(-50%, -40%);
+    transform: translate(-50%, -40%);
+}
+
 .main-header-text {
     width: 90vw;
     -webkit-animation: fadein 3s;
@@ -106,7 +119,7 @@ body {
 }
 
 
-.main-header-anime {
+.main-header-about {
     width: 90vw;
     -webkit-animation: fadein 3s;
     -ms-animation: fadein 3s;
