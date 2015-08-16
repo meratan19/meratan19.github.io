@@ -106,6 +106,13 @@ body {
 }
 
 
+.main-header-anime {
+    width: 90vw;
+    -webkit-animation: fadein 3s;
+    -ms-animation: fadein 3s;
+    animation: fadein 3s;
+}
+
 /*
 .main-header-text:hover {
     box-shadow: 0 0 50px rgba(207, 46, 46, 0.3);
