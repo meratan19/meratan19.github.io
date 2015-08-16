@@ -167,11 +167,11 @@ body {
 }
 
 .item:nth-child(2) {
-    background: #00bfff;
+    background: #22c8ff;//#00bfff;
 }
 
 .item:nth-child(3) {
-    background: #00a6dd;
+    background: #22c8ff;
 }
 
 .item:nth-child(4) {
@@ -179,11 +179,11 @@ body {
 }
 
 .item:nth-child(5) {
-    background: #00bfff;
+    background: #22c8ff;
 }
 
 .item:nth-child(6) {
-    background: #00a6dd;
+    background: #22c8ff;//#00a6dd;
 }
 
 @keyframes fadein {
