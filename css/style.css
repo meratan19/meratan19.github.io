@@ -186,6 +186,22 @@ body {
     background: #22c8ff;//#00a6dd;
 }
 
+.item:nth-child(7) {
+    background: #22c8ff;//#00a6dd;
+}
+
+.item:nth-child(8) {
+    background: #22c8ff;//#00a6dd;
+}
+
+.item:nth-child(9) {
+    background: #22c8ff;//#00a6dd;
+}
+
+.item:nth-child(10) {
+    background: #22c8ff;//#00a6dd;
+}
+
 @keyframes fadein {
     from {
         opacity: 0;
