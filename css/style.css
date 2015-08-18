@@ -37,6 +37,11 @@ body {
     line-height: 120px;
 }
 
+.badger:hover {
+    background-color: #22c8ff;
+    text-decoration:none;
+}
+
 body {
     line-height: 1;
     color: #000;
