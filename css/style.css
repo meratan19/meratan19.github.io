@@ -37,10 +37,17 @@ body {
     line-height: 120px;
 }
 
+/*
 .badge:hover {
     background-color: #22c8ff;
     text-decoration:none;
 }
+
+.badge:hover:after {
+    background-color: #00bfff;
+    text-decoration:none;
+}
+*/
 
 body {
     line-height: 1;
@@ -123,7 +130,7 @@ body {
     left: 50%;
     -webkit-transform: translate(-50%, -40%);
     -ms-transform: translate(-50%, -40%);
-    transform: translate(-50%, -40%);
+    transform: translate(50%, -40%);
 }
 
 .main-header-text {
