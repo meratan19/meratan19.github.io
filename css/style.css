@@ -37,7 +37,7 @@ body {
     line-height: 120px;
 }
 
-.badger:hover {
+.badge:hover {
     background-color: #22c8ff;
     text-decoration:none;
 }
