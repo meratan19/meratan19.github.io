@@ -1,5 +1,7 @@
 /* Created by Ratandeep Singh (with some help from the interwebz). All Rights Reserved. */
 
+@import 'http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css';
+
  #img {
     background-image: url("../assets/p.jpg");
     border-radius: 100%;
