@@ -16,8 +16,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link href='css/style.css' rel='stylesheet' type='text/css'>
     <link href='css/nav.css' rel='stylesheet' type='text/css'>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
+    <link href='css/about.css' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <!-- Google Analytics -->
 
     <script>
@@ -46,6 +47,14 @@
             background: #22c8ff;
         }
     </style>
+
+<script>
+
+$(document).bind("contextmenu",function(e) {
+     e.preventDefault();
+});
+
+</script>
 </head>
 
 <!--[if lt IE 9]>
@@ -59,21 +68,42 @@
         <nav class="navbar">
             <div class="navbar-links">
                 <a href="/" class="navbar-link">ratan</a>
-                <a href="about" class="navbar-link">about</a>
                 <a href="interests" class="navbar-link">interests</a>
                 <a href="http://b.ratan.me" class="navbar-link">blog</a>
                 <a href="contact" class="navbar-link">contact</a>
             </div>
         </nav>
     </div>
-    <div class="main-header-content">
-        <div class="main-header-text">howdy!</div>
+    <div class="main-header-content-about">
+        <div class="main-header-about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 box">
+                        <span class="pull-right">
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    <div id=img></div>
+                        <p>ratandeep singh</p>
+                    </span>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 box">
+                        <span class="pull-left">
+                    <p>experienced</p><br/>
+                        <div id=txt>software engineer since 2004.</div>
+                        <p>agile</p><br/>
+                        <div id=txt>rapid release-feedback-fix cycle.</div>
+                    <p>fastidious</p><br/>
+                        <div id=txt>minimal.neat.</div>
+                    <p>green</p><br/>
+                        <div id=txt>paperless. vegan.</div>
+                    <p>connoisseur</p><br/>
+                        <div id=txt>code. colours. words. notes. saddle. nature.</div>
+                    </span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class=navwrap_f>&copy;
-        <script type="text/javascript">
-            var year = new Date();
-            document.write(year.getFullYear());
-        </script>, all bragging rights reserved.</div>
 
 </body>
 
