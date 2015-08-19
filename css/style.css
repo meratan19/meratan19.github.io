@@ -37,18 +37,6 @@ body {
     line-height: 120px;
 }
 
-/*
-.badge:hover {
-    background-color: #22c8ff;
-    text-decoration:none;
-}
-
-.badge:hover:after {
-    background-color: #00bfff;
-    text-decoration:none;
-}
-*/
-
 body {
     line-height: 1;
     color: #000;
@@ -90,21 +78,16 @@ body {
     font-size: 14px;
 }
 
-.effect {
-    box-shadow: 0px 10px 6px -6px #fff;
-}
-
 .logo {
     max-width: 20vh;
     max-height: 20vh;
 }
 
 .main-header {
-    //margin-top:50px;
-    height: 100%;
-    width: 100%;
-    color: #fff;
-    text-align: center;
+    width: 90vw;
+    -webkit-animation: fadein 3s;
+    -ms-animation: fadein 3s;
+    animation: fadein 3s;
 }
 
 .main-header-content {
@@ -113,31 +96,17 @@ body {
     -o-transform-style: preserve-3d;
     -ms-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -40%);
     -ms-transform: translate(-50%, -40%);
     transform: translate(-50%, -40%);
 }
 
-.main-header-content-about {
-    position: absolute;
-    -webkit-transform-style: preserve-3d;
-    -o-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-    top: 45%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -40%);
-    -ms-transform: translate(-50%, -40%);
-    transform: translate(-50%, -40%);
-}
+.top50 {top: 50%;}
 
-.main-header-text {
-    width: 90vw;
-    -webkit-animation: fadein 3s;
-    -ms-animation: fadein 3s;
-    animation: fadein 3s;
+.top45 {top: 45%;}
+
+.text {
     margin-bottom: 60px;
     font-size: 111px;
     font-weight: bold;
@@ -146,30 +115,13 @@ body {
     color: #fff;
 }
 
-
-.main-header-about {
-    width: 90vw;
-    -webkit-animation: fadein 3s;
-    -ms-animation: fadein 3s;
-    animation: fadein 3s;
-}
-
-/*
-.main-header-text:hover {
-    box-shadow: 0 0 50px rgba(207, 46, 46, 0.3);
-}
-*/
-
 .carousel {
-    //margin-top: 50px;
     margin-bottom: 0px;
     height: 100%;
-    //  margin: 0px auto;
 }
 
 
 /*.carousel,*/
-
 .carousel-inner,
 .carousel-inner .item {
     height: 100%;
@@ -243,20 +195,6 @@ body {
 .item:nth-child(1) {
     background: #22c8ff;
 }
-
-.item:nth-child(2) {
-    background: #22c8ff;//#00bfff;
-}
-
-.item:nth-child(3) {
-    background: #22c8ff;
-}
-
-.item:nth-child(4) {
-    background: #22c8ff;
-}
-
-
 */
 
 @keyframes fadein {
