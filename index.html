@@ -42,6 +42,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
 
     <style>
         body {
@@ -54,6 +55,13 @@
             e.preventDefault();
         });
     </script>
+
+    <script>
+        $(window).load(function () {
+            // Animate loader off screen
+            $(".se-pre-con").fadeOut("slow");;
+        });
+    </script>
 </head>
 
 <!--[if lt IE 9]>
@@ -62,6 +70,8 @@
 </head>
 
 <body>
+
+    <div class="se-pre-con"></div>
 
     <div class=navwrap>
         <nav class="navbar">
