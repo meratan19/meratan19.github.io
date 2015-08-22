@@ -105,7 +105,6 @@ body {
 }
 
 .box p {
-    text-align: left;
     position: relative;
     top: 22px;
     font-size: 24px;
@@ -125,7 +124,7 @@ body {
 }
 
 .main-header {
-    width: 90vw;
+    width: 100vw;
     -webkit-animation: fadein 3s;
     -ms-animation: fadein 3s;
     animation: fadein 3s;
