@@ -1,6 +1,28 @@
 /* Created by Ratandeep Singh (with some help from the interwebz). All Rights Reserved. */
 
 @import 'http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css';
+
+.top {
+    position: absolute;
+    -webkit-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    right: .5%;
+    -webkit-transform: translate(-50%, -40%);
+    -ms-transform: translate(-50%, -40%);
+    transform: translate(-50%, -40%);
+    top: 92%;
+    width: 40px;
+    height: 40px;
+    background-color: #00bfff;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 20px;
+    border-radius: 100%;
+}
+
 .no-js #loader {
     display: none;
 }
