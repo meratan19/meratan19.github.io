@@ -2,6 +2,36 @@
 
 @import 'http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css';
 
+.image-row {
+    text-align: center
+}
+
+@media (min-width: 640px) {
+    .image-row {
+        text-align:left
+    }
+}
+
+.lightbox-image-link {
+    display: inline-block;
+    padding: 2px;
+    margin: 0 .5rem 1rem .5rem;
+    background-color: #fff;
+    line-height: 0;
+    border-radius: 4px;
+    transition: background-color .5s ease-out
+}
+
+.lightbox-image-link:hover {
+    background-color: #00bfff;
+    transition: none
+}
+
+.lightbox-image {
+    width: 7rem;
+    border-radius: 4px
+}
+
 .top {
     position: absolute;
     -webkit-transform-style: preserve-3d;
@@ -16,7 +46,7 @@
     width: 40px;
     height: 40px;
     background-color: #00bfff;
-    color: #ffffff;
+    color: white;
     text-align: center;
     font-size: 1.2em;
     line-height: 20px;
@@ -149,6 +179,11 @@ body {
 .top42 {
     top: 42%;
 }
+
+.top39 {
+    top: 39%;
+}
+
 
 .text {
     margin-bottom: 60px;

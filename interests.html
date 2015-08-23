@@ -23,6 +23,7 @@
     <!-- fullPage -->
     <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
     <!-- fullPage -->
+    <link rel="stylesheet" type="text/css" href="css/lightbox.css" />
 
     <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
     <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
@@ -62,7 +63,7 @@
         $(document).ready(function () {
 
             $('#fullpage').fullpage({
-                anchors: ['firstPage', 'secondPage', '3rdPage'],
+                anchors: ['1stPage', '2ndPage', '3rdPage'],
                 sectionsColor: ['#22c8ff', '#22c8ff', '#22c8ff'],
                 scrollBar: false
             });
@@ -218,19 +219,57 @@
         <div class="section" id="section2">
 
             <div class="main-header-content top50">
-                <div class="main-header text">2</div>
+                <div class="main-header text">
+
+
+                    <div class=container>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 box">
+                                    <a class="lightbox-image-link" href="assets/toons/C90.jpg" data-lightbox="C90" data-title=C90><img class="lightbox-image" src="assets/toons/thumbs/C90.jpg" alt="C90" /></a>
+                            </div>
+                             <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 box">
+                                    <a class="lightbox-image-link" href="assets/toons/C160.png" data-lightbox="C160" data-title=C160><img class="lightbox-image" src="assets/toons/thumbs/C160.png" alt="C160" /></a>
+                                  </div>
+                             <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 box">
+                                      <a class="lightbox-image-link" href="assets/toons/C136.jpg" data-lightbox="C136" data-title=C136><img class="lightbox-image" src="assets/toons/thumbs/C136.jpg" alt="C136" /></a>
+                                  </div>
+                             <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 box">
+                                      <a class="lightbox-image-link" href="assets/toons/C79.jpg" data-lightbox="C79" data-title=C79><img class="lightbox-image" src="assets/toons/thumbs/C79.jpg" alt="C79" /></a>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 box">
+                                    <a class="lightbox-image-link" href="assets/toons/C149.jpg" data-lightbox="C149" data-title=C149><img class="lightbox-image" src="assets/toons/thumbs/C149.jpg" alt="C149" /></a>
+                            </div>
+                             <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 box">
+                                    <a class="lightbox-image-link" href="assets/toons/C150.png" data-lightbox="C150" data-title=C160><img class="lightbox-image" src="assets/toons/thumbs/C150.png" alt="C150" /></a>
+                                  </div>
+                             <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 box">
+                                      <a class="lightbox-image-link" href="assets/toons/C158.png" data-lightbox="C158" data-title=C158><img class="lightbox-image" src="assets/toons/thumbs/C158.png" alt="C158" /></a>
+                                  </div>
+                             <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 box">
+                                      <a class="lightbox-image-link" href="assets/toons/C161.png" data-lightbox="C161" data-title=C161><img class="lightbox-image" src="assets/toons/thumbs/C161.png" alt="C161" /></a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-<!--    </div>-->
+    <!--    </div>-->
     <div class="top">
 
 
-        <a href="#firstPage" title="Top">
+        <a href="#1stPage" title="Top">
             <i class="fa fa-angle-double-up fa-2x"></i>
 
 
     </div>
+
+    <script type="text/javascript" src="js/lightbox.js"></script>
+
 </body>
 
 </html>
