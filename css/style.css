@@ -2,6 +2,8 @@
 
 @import 'http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css';
 
+a {text-decoration: none !important;}
+
 .image-row {
     text-align: center
 }

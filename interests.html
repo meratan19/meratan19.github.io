@@ -63,8 +63,8 @@
         $(document).ready(function () {
 
             $('#fullpage').fullpage({
-                anchors: ['1stPage', '2ndPage', '3rdPage'],
-                sectionsColor: ['#22c8ff', '#22c8ff', '#22c8ff'],
+                anchors: ['1stPage', '2ndPage'],
+                sectionsColor: ['#22c8ff', '#22c8ff'],
                 scrollBar: false
             });
 
@@ -72,6 +72,13 @@
                 $(this).carousel('prev');
             });
             $("#myCarousel").swipeleft(function () {
+                $(this).carousel('next');
+            });
+            
+             $("#myCarousel1").swiperight(function () {
+                $(this).carousel('prev');
+            });
+            $("#myCarousel1").swipeleft(function () {
                 $(this).carousel('next');
             });
         });
@@ -118,23 +125,16 @@
                     <li data-target="#myCarousel" data-slide-to="8"></li>
                     <li data-target="#myCarousel" data-slide-to="9"></li>
                     <li data-target="#myCarousel" data-slide-to="10"></li>
-                    <li data-target="#myCarousel" data-slide-to="11"></li>
                 </ol>
                 <!-- Wrapper for carousel items -->
                 <div class="carousel-inner">
 
+
+
                     <div class="active item">
 
                         <div class="main-header-content top50">
-                            <div class="main-header text">{code}.</div>
-                        </div>
-                    </div>
-
-
-                    <div class="item">
-
-                        <div class="main-header-content top50">
-                            <div class="main-header text">toons.</div>
+                            <a href=#2ndPage><div class="main-header text">toons.</div></a>
                         </div>
                     </div>
                     <div class="item">
@@ -208,55 +208,113 @@
 
             </div>
         </div>
+
         <div class="section" id="section1">
+            <div id="myCarousel1" class="carousel slide" data-interval=false data-ride="carousel">
+                <!-- Carousel indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel1" data-slide-to="0" class=active></li>
+                    <li data-target="#myCarousel1" data-slide-to="1"></li>
+                </ol>
+                <!-- Wrapper for carousel items -->
+                <div class="carousel-inner">
 
-            <div class="main-header-content top50">
-                <div class="main-header text">1</div>
-            </div>
+                    <div class="active item">
 
-        </div>
+                        <div class="main-header-content top50">
+                            <div class="main-header text">
 
-        <div class="section" id="section2">
+                                <div class=container>
+                                    <div class="row">
+                                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 box">
+                                            <a class="lightbox-image-link" href="assets/toons/C90.jpg" data-lightbox="toons" data-title=C90><img class="lightbox-image" src="assets/toons/thumbs/C90.jpg" alt="C90" /></a>
+                                        </div>
+                                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 box">
+                                            <a class="lightbox-image-link" href="assets/toons/C160.png" data-lightbox="toons" data-title=C160><img class="lightbox-image" src="assets/toons/thumbs/C160.png" alt="C160" /></a>
+                                        </div>
+                                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 box">
+                                            <a class="lightbox-image-link" href="assets/toons/C136.jpg" data-lightbox="toons" data-title=C136><img class="lightbox-image" src="assets/toons/thumbs/C136.jpg" alt="C136" /></a>
+                                        </div>
+                                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 box">
+                                            <a class="lightbox-image-link" href="assets/toons/C79.jpg" data-lightbox="toons" data-title=C79><img class="lightbox-image" src="assets/toons/thumbs/C79.jpg" alt="C79" /></a>
+                                        </div>
+                                    </div>
 
-            <div class="main-header-content top50">
-                <div class="main-header text">
+                                    <div class="row">
+                                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 box">
+                                            <a class="lightbox-image-link" href="assets/toons/C149.jpg" data-lightbox="toons" data-title=C149><img class="lightbox-image" src="assets/toons/thumbs/C149.jpg" alt="C149" /></a>
+                                        </div>
+                                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 box">
+                                            <a class="lightbox-image-link" href="assets/toons/C150.png" data-lightbox="toons" data-title=C150><img class="lightbox-image" src="assets/toons/thumbs/C150.png" alt="C150" /></a>
+                                        </div>
+                                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 box">
+                                            <a class="lightbox-image-link" href="assets/toons/C158.png" data-lightbox="toons" data-title=C158><img class="lightbox-image" src="assets/toons/thumbs/C158.png" alt="C158" /></a>
+                                        </div>
+                                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 box">
+                                            <a class="lightbox-image-link" href="assets/toons/C161.png" data-lightbox="toons" data-title=C161><img class="lightbox-image" src="assets/toons/thumbs/C161.png" alt="C161" /></a>
+                                        </div>
+                                    </div>
 
-
-                    <div class=container>
-                        <div class="row">
-                            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 box">
-                                    <a class="lightbox-image-link" href="assets/toons/C90.jpg" data-lightbox="C90" data-title=C90><img class="lightbox-image" src="assets/toons/thumbs/C90.jpg" alt="C90" /></a>
-                            </div>
-                             <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 box">
-                                    <a class="lightbox-image-link" href="assets/toons/C160.png" data-lightbox="C160" data-title=C160><img class="lightbox-image" src="assets/toons/thumbs/C160.png" alt="C160" /></a>
-                                  </div>
-                             <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 box">
-                                      <a class="lightbox-image-link" href="assets/toons/C136.jpg" data-lightbox="C136" data-title=C136><img class="lightbox-image" src="assets/toons/thumbs/C136.jpg" alt="C136" /></a>
-                                  </div>
-                             <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 box">
-                                      <a class="lightbox-image-link" href="assets/toons/C79.jpg" data-lightbox="C79" data-title=C79><img class="lightbox-image" src="assets/toons/thumbs/C79.jpg" alt="C79" /></a>
+                                </div>
                             </div>
                         </div>
-                        
-                        <div class="row">
-                            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 box">
-                                    <a class="lightbox-image-link" href="assets/toons/C149.jpg" data-lightbox="C149" data-title=C149><img class="lightbox-image" src="assets/toons/thumbs/C149.jpg" alt="C149" /></a>
-                            </div>
-                             <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 box">
-                                    <a class="lightbox-image-link" href="assets/toons/C150.png" data-lightbox="C150" data-title=C160><img class="lightbox-image" src="assets/toons/thumbs/C150.png" alt="C150" /></a>
-                                  </div>
-                             <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 box">
-                                      <a class="lightbox-image-link" href="assets/toons/C158.png" data-lightbox="C158" data-title=C158><img class="lightbox-image" src="assets/toons/thumbs/C158.png" alt="C158" /></a>
-                                  </div>
-                             <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 box">
-                                      <a class="lightbox-image-link" href="assets/toons/C161.png" data-lightbox="C161" data-title=C161><img class="lightbox-image" src="assets/toons/thumbs/C161.png" alt="C161" /></a>
-                            </div>
-                        </div>
-                        
                     </div>
+
+
+                    <div class="item">
+                        <div class="main-header-content top50">
+                            <div class="main-header text">
+                                <div class=container>
+                                    <div class="row">
+                                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 box">
+                                            <a class="lightbox-image-link" href="assets/toons/C128.jpg" data-lightbox="toons" data-title=C128><img class="lightbox-image" src="assets/toons/thumbs/C128.jpg" alt="C128" /></a>
+                                        </div>
+                                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 box">
+                                            <a class="lightbox-image-link" href="assets/toons/C129.jpg" data-lightbox="toons" data-title=C129><img class="lightbox-image" src="assets/toons/thumbs/C129.jpg" alt="C129" /></a>
+                                        </div>
+                                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 box">
+                                            <a class="lightbox-image-link" href="assets/toons/C133.jpg" data-lightbox="toons" data-title=C133><img class="lightbox-image" src="assets/toons/thumbs/C133.jpg" alt="C136" /></a>
+                                        </div>
+                                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 box">
+                                            <a class="lightbox-image-link" href="assets/toons/C134.jpg" data-lightbox="toons" data-title=C79><img class="lightbox-image" src="assets/toons/thumbs/C134.jpg" alt="C134" /></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 box">
+                                            <a class="lightbox-image-link" href="assets/toons/C135.jpg" data-lightbox="toons" data-title=C135><img class="lightbox-image" src="assets/toons/thumbs/C135.jpg" alt="C135" /></a>
+                                        </div>
+                                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 box">
+                                            <a class="lightbox-image-link" href="assets/toons/C151.png" data-lightbox="toons" data-title=C150><img class="lightbox-image" src="assets/toons/thumbs/C151.png" alt="C150" /></a>
+                                        </div>
+                                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 box">
+                                            <a class="lightbox-image-link" href="assets/toons/C153.png" data-lightbox="toons" data-title=C153><img class="lightbox-image" src="assets/toons/thumbs/C153.png" alt="C153" /></a>
+                                        </div>
+                                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 box">
+                                            <a class="lightbox-image-link" href="assets/toons/C142a.png" data-lightbox="toons" data-title=C142a><img class="lightbox-image" src="assets/toons/thumbs/C142a.png" alt="C142a" /></a>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carousel controls -->
+                    <a class="carousel-control left" href="#myCarousel1" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="carousel-control right" href="#myCarousel1" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
                 </div>
+
             </div>
         </div>
+
+
+
+
     </div>
     <!--    </div>-->
     <div class="top">
