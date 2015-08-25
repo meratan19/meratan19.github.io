@@ -33,6 +33,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
     <script src="js/jquery.mobile.custom.min.js"></script>
+	<script type="text/javascript" src="js/hammer.min.js"></script>
+    <script type="text/javascript" src="js/coffeeflow.js"></script>
 
     <!-- fullPage -->
     <script type="text/javascript" src="js/jquery.slimScroll.min.js"></script>
@@ -63,8 +65,8 @@
         $(document).ready(function () {
 
             $('#fullpage').fullpage({
-                anchors: ['1stPage', '2ndPage'],
-                sectionsColor: ['#22c8ff', '#22c8ff'],
+                anchors: ['1stPage', '2ndPage','3rdPage'],
+                sectionsColor: ['#22c8ff', '#22c8ff', '#22c8ff'],
                 scrollBar: false
             });
 
@@ -346,7 +348,39 @@
             </div>
         </div>
 
+<div class="section" id="section2">
 
+<div class="coffeeflow">
+      <a href="assets/books/2.jpg"><img src="assets/books/2.jpg" alt=""></a>
+      <a href="assets/books/3.jpg"><img src="assets/books/3.jpg" alt=""></a>
+      <a href="assets/books/1.jpg"><img src="assets/books/1.jpg" alt=""></a>
+      <a href="assets/books/1.jpg"><img src="assets/books/1.jpg" alt=""></a>
+      <a href="assets/books/1.jpg"><img src="assets/books/1.jpg" alt=""></a>
+      <a href="assets/books/1.jpg"><img src="assets/books/1.jpg" alt=""></a>
+      <a href="assets/books/1.jpg"><img src="assets/books/1.jpg" alt=""></a>
+      <a href="assets/books/1.jpg"><img src="assets/books/1.jpg" alt=""></a>
+      <a href="assets/books/1.jpg"><img src="assets/books/1.jpg" alt=""></a>
+      <a href="assets/books/1.jpg"><img src="assets/books/1.jpg" alt=""></a>
+    </div>
+    <div class="log"></div>
+    <script type="text/javascript">
+      function log(m) {$("div.log").text(m);}
+      $(function(){
+        $(".coffeeflow").coffeeflow({
+          defaultItem: 4,
+          minHeight: 120,
+          enableReflections: true,
+          blur      : function(e){ log("CoffeeFlow blured"); },
+          change      : function(e){ log("Changed. Current item is " + e.getIndex()); },
+          error      : function(e){ log("Error. Image is not loaded"); },
+          focus      : function(e){ log("CoffeeFlow focused"); },
+          ready      : function(e){ log("CoffeeFlow is ready"); },
+          select      : function(e){ log("Item " + e.getIndex() + " selected"); }
+        });
+      });
+    </script>
+
+</div>
 
 
     </div>
@@ -361,7 +395,6 @@
     </div>
 
     <script type="text/javascript" src="js/lightbox.js"></script>
-
 </body>
 
 </html>
