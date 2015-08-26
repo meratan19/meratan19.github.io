@@ -44,20 +44,6 @@
                 sectionsColor: ['#22c8ff', '#22c8ff', '#22c8ff', '#22c8ff', '#22c8ff'],
                 scrollBar: false
             });
-
-            $("#myCarousel").swiperight(function () {
-                $(this).carousel('prev');
-            });
-            $("#myCarousel").swipeleft(function () {
-                $(this).carousel('next');
-            });
-
-            $("#myCarousel1").swiperight(function () {
-                $(this).carousel('prev');
-            });
-            $("#myCarousel1").swipeleft(function () {
-                $(this).carousel('next');
-            });
         });
     </script>
 
@@ -526,10 +512,27 @@
     <script type="text/javascript" src="js/hammer.min.js"></script>
     <script type="text/javascript" src="js/coffeeflow.min.js"></script>
 	
+	    <script>
+        $(document).ready(function () {
+
+            $("#myCarousel").swiperight(function () {
+                $(this).carousel('prev');
+            });
+            $("#myCarousel").swipeleft(function () {
+                $(this).carousel('next');
+            });
+
+            $("#myCarousel1").swiperight(function () {
+                $(this).carousel('prev');
+            });
+            $("#myCarousel1").swipeleft(function () {
+                $(this).carousel('next');
+            });
+        });
+    </script>
+	
 	 <script type="text/javascript">
-                function log(m) {
-                    $("div.log").text(m);
-                }
+        
                 $(function () {
                     $(".coffeeflow").coffeeflow({
                         defaultItem: 41,
