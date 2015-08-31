@@ -1,6 +1,11 @@
 /* Created by Ratandeep Singh (with some help from the interwebz). All Rights Reserved. */
 
-a {text-decoration: none !important;}
+
+/**/
+
+a {
+    text-decoration: none !important;
+}
 
 .image-row {
     text-align: center
@@ -8,7 +13,7 @@ a {text-decoration: none !important;}
 
 @media (min-width: 640px) {
     .image-row {
-        text-align:left
+        text-align: left
     }
 }
 
@@ -184,7 +189,6 @@ body {
     top: 39%;
 }
 
-
 .text {
     margin-bottom: 60px;
     font-size: 111px;
@@ -213,7 +217,7 @@ body {
     top: 0;
     bottom: 0;
     left: 0;
-    width: 5%;
+    width: 15%;
     font-size: 20px;
     color: #fff;
     text-align: center;
