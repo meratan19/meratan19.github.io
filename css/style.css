@@ -1,7 +1,28 @@
 /* Created by Ratandeep Singh (with some help from the interwebz). All Rights Reserved. */
 
 
-/**/
+.panel:target{ 
+        opacity: 1; 
+        margin-top: 0%; 
+} 
+
+.panel{ 
+        min-width: 100%; 
+        height: 100%; 
+        overflow-y: auto; 
+        overflow-x: hidden; 
+        position: absolute; 
+        margin-top: -150%; 
+        background-color: #22c8ff; 
+        opacity: 0; 
+        z-index:2; 
+        -webkit-transition: opacity .6s ease-in-out; 
+        -moz-transition: opacity .6s ease-in-out; 
+        -o-transition: opacity .6s ease-in-out; 
+        -ms-transition: opacity .6s ease-in-out; 
+        transition: opacity .6s ease-in-out; 
+        border-radius:0%;                   
+}
 
 a {
     text-decoration: none !important;
@@ -35,6 +56,28 @@ a {
 .lightbox-image {
     width: 7rem;
     border-radius: 4px
+}
+
+.close {
+    position: absolute;
+    -webkit-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    right: .5%;
+    -webkit-transform: translate(-50%, -40%);
+    -ms-transform: translate(-50%, -40%);
+    transform: translate(-50%, -40%);
+    bottom: 87%;
+/*    top:92%;*/
+    width: 40px;
+    height: 40px;
+    background-color: #00bfff;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 20px;
+    border-radius: 100%;
 }
 
 .top {
@@ -130,6 +173,7 @@ body {
     -webkit-font-feature-settings: 'liga', 'kern';
     -moz-font-feature-settings: 'liga', 'kern';
     font-feature-settings: 'liga', 'kern';
+    overflow: hidden;
 }
 
 .box {
@@ -217,7 +261,7 @@ body {
     top: 0;
     bottom: 0;
     left: 0;
-    width: 15%;
+    width: 9%;
     font-size: 20px;
     color: #fff;
     text-align: center;
