@@ -15,10 +15,8 @@
 
     <title>ratan.</title>
 
-<!--
     <link href='css/style.css' rel='stylesheet' type='text/css'>
     <link href='css/nav.css' rel='stylesheet' type='text/css'>
--->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
 
@@ -550,33 +548,7 @@
         else window.addEventListener('load', cb);
     </script>
 
-      <script>
-        var cb = function () {
-            var l = document.createElement('link');
-            l.rel = 'stylesheet';
-            l.href = 'css/style.css';
-            var h = document.getElementsByTagName('head')[0];
-            h.parentNode.insertBefore(l, h);
-        };
-        var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-            webkitRequestAnimationFrame || msRequestAnimationFrame;
-        if (raf) raf(cb);
-        else window.addEventListener('load', cb);
-    </script>
-    
-    <script>
-        var cb = function () {
-            var l = document.createElement('link');
-            l.rel = 'stylesheet';
-            l.href = 'css/nav.css';
-            var h = document.getElementsByTagName('head')[0];
-            h.parentNode.insertBefore(l, h);
-        };
-        var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-            webkitRequestAnimationFrame || msRequestAnimationFrame;
-        if (raf) raf(cb);
-        else window.addEventListener('load', cb);
-    </script>
+ 
 </body>
 
 </html>
