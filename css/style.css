@@ -58,28 +58,6 @@ a {
     border-radius: 4px
 }
 
-.close {
-    position: absolute;
-    -webkit-transform-style: preserve-3d;
-    -o-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-    right: .5%;
-    -webkit-transform: translate(-50%, -40%);
-    -ms-transform: translate(-50%, -40%);
-    transform: translate(-50%, -40%);
-    bottom: 87%;
-/*    top:92%;*/
-    width: 40px;
-    height: 40px;
-    background-color: #00bfff;
-    color: white;
-    text-align: center;
-    font-size: 1.2em;
-    line-height: 20px;
-    border-radius: 100%;
-}
-
 .top {
     position: absolute;
     -webkit-transform-style: preserve-3d;
