@@ -27,18 +27,17 @@
 
     <script>
         $(document).ready(function () {
+
+            $('#myCarousel').carousel({
+                interval: 3000
+            });
             $("#myCarousel").swiperight(function () {
                 $(this).carousel('prev');
             });
             $("#myCarousel1").swiperight(function () {
                 $(this).carousel('prev');
             });
-            $("#myCarousel").swipeleft(function () {
-                $(this).carousel('next');
-            });
-            $("#myCarousel1").swipeleft(function () {
-                $(this).carousel('next');
-            });
+
         });
     </script>
 
@@ -68,7 +67,7 @@
             </div>
         </nav>
     </div>
-    <div id="myCarousel" class="carousel slide" data-interval=false data-ride="carousel">
+    <div id="myCarousel" class="carousel slide" data-interval=true data-ride="carousel">
         <!-- Carousel indicators -->
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class=active></li>
@@ -133,7 +132,7 @@
                     <div class="main-header text">sports.</div>
                 </div>
             </div>
-             <div class="item">
+            <div class="item">
 
                 <div class="main-header-content top50">
                     <div class="main-header text">wristwatches.</div>

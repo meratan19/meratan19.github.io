@@ -24,11 +24,8 @@
 
     <script>
         $(document).ready(function () {
-            $("#myCarousel").swiperight(function () {
-                $(this).carousel('prev');
-            });
-            $("#myCarousel1").swiperight(function () {
-                $(this).carousel('prev');
+             $('#myCarousel1').carousel({
+                interval: 5000
             });
             $("#myCarousel").swipeleft(function () {
                 $(this).carousel('next');
@@ -75,7 +72,7 @@
     <!--    <div id=toons class=panel>-->
 
 
-    <div id="myCarousel1" class="carousel slide" data-interval=false data-ride="carousel">
+    <div id="myCarousel1" class="carousel slide" data-interval=true data-ride="carousel">
         <!-- Carousel indicators -->
         <ol class="carousel-indicators">
             <li data-target="#myCarousel1" data-slide-to="0" class=active></li>
