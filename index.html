@@ -14,12 +14,13 @@
     <meta name="keywords" content="poem,poetry,story,photography,die-cast,cars,librivox,music,books,cartoons,running,cycling">
 
     <title>ratan</title>
-    <link href='css/style.css' rel='stylesheet' type='text/css'>
+    <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+    <link href='css/nav.css' rel='stylesheet' type='text/css'>
     <link href='css/nav.css' rel='stylesheet' type='text/css'>
 
     <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
     <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
-  
+
 
     <style>
         body {
@@ -27,7 +28,7 @@
         }
     </style>
 
-   
+
 </head>
 
 <!--[if lt IE 9]>
@@ -37,13 +38,13 @@
 
 <body>
 
-<!--    <div class="se-pre-con"></div>-->
+    <!--    <div class="se-pre-con"></div>-->
 
     <div class=navwrap>
         <nav class="navbar">
             <div class="navbar-links">
                 <a href="/" class="navbar-link"><b>ratan</b></a>
-<!--                <a href="interests" class="navbar-link">interests</a>-->
+                <!--                <a href="interests" class="navbar-link">interests</a>-->
                 <a href="http://b.ratan.me" class="navbar-link">blog</a>
                 <a href="contact" class="navbar-link">contact</a>
             </div>
@@ -84,24 +85,12 @@
             var year = new Date();
             document.write(year.getFullYear());
         </script>, all rights reserved.</div>
-		
-	
-	
-	     <script>
-        var cb = function () {
-            var l = document.createElement('link');
-            l.rel = 'stylesheet';
-            l.href = 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css';
-            var h = document.getElementsByTagName('head')[0];
-            h.parentNode.insertBefore(l, h);
-        };
-        var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-            webkitRequestAnimationFrame || msRequestAnimationFrame;
-        if (raf) raf(cb);
-        else window.addEventListener('load', cb);
-    </script>	
-	
-		  <script>
+
+
+
+
+<!--
+    <script>
         var cb = function () {
             var l = document.createElement('link');
             l.rel = 'stylesheet';
@@ -114,11 +103,12 @@
         if (raf) raf(cb);
         else window.addEventListener('load', cb);
     </script>
-	
-	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-<!--
+    <!--
     <script>
         $(window).load(function () {
             // Animate loader off screen
@@ -126,8 +116,8 @@
         });
     </script>
 -->
-	
-		  <!-- Google Analytics -->
+
+    <!-- Google Analytics -->
     <script>
         (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
