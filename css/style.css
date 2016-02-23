@@ -1,5 +1,9 @@
 /* Created by Ratandeep Singh (with some help from the interwebz). All Rights Reserved. */
-
+.link{
+  background-color:none;
+  color:white;
+  text-decoration: none;
+ }
 
 .panel:target{ 
         opacity: 1; 
