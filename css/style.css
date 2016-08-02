@@ -385,8 +385,8 @@
      vertical-align: middle;
  }
  #divider01 {
-     height: 0.5rem;
-     line-height: 0.5rem;
+     height: 0.3rem;
+     line-height: 0.3rem;
  }
  #divider01:before {
      width: 100%;
