@@ -378,10 +378,14 @@ color: #FFFFE3;
      height: 0.3rem;
      line-height: 0.3rem;
 background-color: #FFFFE3;
+border-color: #FFFFE3;
+color: #FFFFE3;
  }
  #divider01:before {
      width: 100%;
      background-color: #FFFFE3;
+border-color: #FFFFE3;
+color: #FFFFE3;
      height: 1px;
  }
  .icons {
