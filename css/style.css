@@ -289,20 +289,7 @@
      line-height: 1.5;
      font-weight: 300;
  }
- #credits a {
-     -moz-transition: opacity 0.25s ease;
-     -webkit-transition: opacity 0.25s ease;
-     -ms-transition: opacity 0.25s ease;
-     transition: opacity 0.25s ease;
-     opacity: 0.5;
-     text-decoration: none !important;
-     text-decoration: underline;
- }
- #credits a:hover {
-     opacity: 1;
-     text-decoration: none !important;
-     text-decoration: none;
- }
+ 
  .image {
      position: relative;
      overflow: hidden;
@@ -387,6 +374,7 @@
  #divider01 {
      height: 0.3rem;
      line-height: 0.3rem;
+background-color: #FFFFE3;
  }
  #divider01:before {
      width: 100%;
