@@ -365,6 +365,7 @@
      position: relative;
      padding: 0;
      border: 0;
+background-color: #FFFFE3;
  }
  hr:before {
      content: '';
