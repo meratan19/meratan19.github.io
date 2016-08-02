@@ -391,7 +391,7 @@
  #divider01:before {
      width: 100%;
      background-color: #FFFFFF;
-     height: 1px;
+     height: 0.5px;
  }
  .icons {
      cursor: default;
