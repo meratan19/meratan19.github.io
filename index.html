@@ -21,7 +21,7 @@
     <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,200,400" rel="stylesheet" type="text/css" />
     <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
     <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
-    <style>
+   <style>
         html,
         body,
         div,
@@ -401,41 +401,6 @@
             margin-top: 0.9rem;
         }
         
-        hr {
-            width: 100%;
-            position: relative;
-            padding: 0;
-            border: 0;
-        }
-        
-        hr:before {
-            content: '';
-            display: inline-block;
-            vertical-align: middle;
-        }
-        
-        #divider01 {
-            height: 0.5rem;
-            line-height: 0.5rem;
-        }
-        
-        #divider01:before {
-            width: 76%;
-            background-color: #FFFFFF;
-            height: 1px;
-        }
-        
-        #divider02 {
-            height: 0.5rem;
-            line-height: 0.5rem;
-        }
-        
-        #divider02:before {
-            width: 76%;
-            background-color: #FFFFFF;
-            height: 1px;
-        }
-        
         .table-wrapper {
             max-width: 100%;
             overflow-x: auto;
@@ -480,39 +445,96 @@
             padding: 0.25rem 0.34375rem;
         }
         
-        .links {
-            cursor: default;
+        hr {
+            width: 100%;
+            position: relative;
             padding: 0;
-            line-height: 1.5;
+            border: 0;
         }
         
-        .links li {
+        hr:before {
+            content: '';
             display: inline-block;
             vertical-align: middle;
         }
         
-        .links li a {
+        #divider01 {
+            height: 0.5rem;
+            line-height: 0.5rem;
+        }
+        
+        #divider01:before {
+            width: 100%;
+            background-color: #FFFFFF;
+            height: 1px;
+        }
+        
+        .icons {
+            cursor: default;
+            padding: 0;
+            letter-spacing: 0;
+        }
+        
+        .icons li {
+            display: inline-block;
+            vertical-align: middle;
+        }
+        
+        .icons li a {
             display: block;
-        }
-        
-        #links02 {
-            text-transform: lowercase;
-            font-size: 1.125em;
-            font-family: 'Source Sans Pro';
-            font-weight: 200;
-        }
-        
-        #links02 li {
-            margin: 0.25rem 0.5rem;
-        }
-        
-        #links02 li a {
-            color: #FFFFFF;
+            color: inherit;
             text-decoration: none;
+            text-align: center;
+            letter-spacing: 0;
         }
         
-        #links02 li a:hover {
-            text-decoration: underline;
+        .icons li a .label {
+            display: none;
+        }
+        
+        #icons01 {
+            font-size: 1em;
+        }
+        
+        #icons01 li {
+            margin: 0.375rem;
+        }
+        
+        #icons01 li a {
+            border-radius: 100%;
+            width: 2em;
+            height: 2em;
+            line-height: 2em;
+        }
+        
+        #icons01 .n01 {
+            color: rgba(255, 255, 255, 0.89);
+            border: solid 1px rgba(255, 255, 255, 0.89);
+        }
+        
+        #icons01 .n01:hover {
+            color: #FFFFFF;
+            border-color: #FFFFFF;
+        }
+        
+        #icons01 .n02 {
+            color: rgba(255, 255, 255, 0.89);
+            border: solid 1px rgba(255, 255, 255, 0.89);
+        }
+        
+        #icons01 .n02:hover {
+            color: #FFFFFF;
+            border-color: #FFFFFF;
+        }
+        
+        #icons01 .n03 {
+            color: rgba(255, 255, 255, 0.89);
+            border: solid 1px rgba(255, 255, 255, 0.89);
+        }
+        
+        #icons01 .n03:hover {
+            color: #FFFFFF;
+            border-color: #FFFFFF;
         }
         
         @media (max-width: 1680px) {
@@ -549,8 +571,8 @@
             #text01 {
                 font-size: 2em;
             }
-            #links02 li {
-                margin: 0.1875rem;
+            #icons01 li {
+                margin: 0.28125rem;
             }
         }
     </style>
@@ -569,10 +591,10 @@
 </head>
 
 <body class="is-loading">
-    <div id="wrapper">
+      <div id="wrapper">
         <div id="main">
             <div class="inner">
-                <div class="image" id="image02"><img src="assets/p.jpg" alt="" /></div>
+                <div class="image" id="image02"><img src="assets/images/image02.jpg" alt="" /></div>
                 <h1 id="text01">ratandeep singh</h1>
                 <div class="table-wrapper" id="table01">
                     <div class="table-inner">
@@ -594,11 +616,13 @@
                         </table>
                     </div>
                 </div>
-                <ul class="links" id="links02">
-                    <li><a href="http://paperfri.es/blog" target=_blank>blog</a></li>
-                    <li><a href="#" target=_self>|</a></li>
-                    <li><a href="mailto:hi@ratan.me">contact</a></li>
+                <hr id="divider01" />
+                <ul class="icons" id="icons01">
+                    <li><a class="icon icon-950 n01" href="http://domain.tld/path"><span class="label">document-alt</span></a></li>
+                    <li><a class="icon icon-90a n02" href="http://domain.tld/path"><span class="label">email</span></a></li>
+                    <li><a class="icon icon-905 n03" href="http://domain.tld/path"><span class="label">twitter</span></a></li>
                 </ul>
+                <p id="credits"><a href="https://carrd.co">( made with carrd )</a></p>
             </div>
         </div>
     </div>
