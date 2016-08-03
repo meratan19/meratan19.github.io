@@ -339,7 +339,7 @@ p br + br {
 }
 .table-wrapper {
     max-width: 100%;
-    overflow-x: auto;
+    overflow-x: visible;
     -webkit-overflow-scrolling: touch;
 }
 .table-inner {
