@@ -315,7 +315,7 @@ body.is-loading:before {
     display: inline-block;
 }
 #image02 img {
-    width: 12rem;
+    width: 11rem;
     border-radius: 5%;
     border: 1px solid black;
 }
