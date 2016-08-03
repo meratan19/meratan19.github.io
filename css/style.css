@@ -315,8 +315,9 @@ body.is-loading:before {
     display: inline-block;
 }
 #image02 img {
-    width: 10rem;
+    width: 11rem;
     border-radius: 100%;
+    border: 1px solid black;
 }
 h1 br + br,
 p br + br {
@@ -356,7 +357,7 @@ th {
 }
 #table01 {
     text-transform: lowercase;
-    color: #FFFFFF;
+    color: #000000;
     font-family: 'Source Sans Pro';
     font-size: 1.5em;
     line-height: 1.25;
