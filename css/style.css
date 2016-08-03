@@ -329,7 +329,7 @@ p br + br {
 }
 #text01 {
     text-transform: lowercase;
-    color: #FFFFFF;
+    color: #000000;
     font-family: 'Source Sans Pro';
     font-size: 2.25em;
     line-height: 1.5;
