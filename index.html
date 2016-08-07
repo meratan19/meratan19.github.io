@@ -1,37 +1,47 @@
 ---
 layout: default
+title: my blog
+order: 1
+category: shorts
 ---
+<div class="home">
+    <ul class="post-list">
 
-<div id="home">
-  <h1 id="intro">The three most recent posts.</h1>
-  <div>
-  </div>
-  {% for post in site.posts limit:3 %}
-  <div class="post">
-    <h2><a href="{{ post.url }}">{{post.title}}</a></h2>
-    <span class="date">{{ post.date | date:"%B %d, %Y" }}</span>
-    {{ post.content }}
-    <div class="view_comments_link">
-      <a href="{{ post.url }}#disqus_thread">View Comments</a> <br />
-    </div>
-  </div>
-  {% endfor %}
 
-  <div id="related">
-    <div class="related_left">
-      <h2>Previous posts</h2>
-      <ul class="posts small">
-        {% for post in site.posts offset:3 limit:3 %}
-        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% for post in paginator.posts %}
+        <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+        </h2>
+
+            <div align=justify>{{ post.excerpt }}</div>
+            <span class="post-meta"> <a href="{{ post.url | prepend: site.baseurl }}">more...</a></span>
+        </li>
         {% endfor %}
-      </ul>
-    </div>
-    <div class="related_right">
-      <h2>Older posts... (see <a href="/archive.html">archive</a> for more)</h2>
-      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+    </ul>
+    <!-- Pagination links -->
+    <div class="pagination">
+        <div class="pagination">
+            {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a> {% else %}
+            <span>&laquo; Prev</span> {% endif %} {% for page in (1..paginator.total_pages) %} {% if page == paginator.page %}
+            <em>{{ page }}</em> {% elsif page == 1 %}
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a> {% else %}
+            <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a> {% endif %} {% endfor %} {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a> {% else %}
+            <span>Next &raquo;</span> {% endif %}
+        </div>
+
 
     </div>
-  </div>
-
-
+    <!--div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="previous">&#8592; Newer posts</a>
+    {% endif %}
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="next">Older posts &#8594;</a>
+    {% endif %}
+  </div-->
 </div>
