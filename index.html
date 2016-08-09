@@ -17,11 +17,24 @@
     <meta name="author" content="ratan" />
     <meta name="keywords" content="poetry,story,photography,music,books,doodles,running,cycling,horology,aviation" />
     <meta property="og:image" content="../assets/screenshot.jpg" />
-    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,200,400" rel="stylesheet" type="text/css" />
+    <!--link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,200,400" rel="stylesheet" type="text/css" /-->
     <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
     <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
     <link href='css/style.css' rel='stylesheet' type='text/css'>
-    <link href='css/icons.css' rel='stylesheet' type='text/css'>
+    <link href='css/gfont.css' rel='stylesheet' type='text/css'>
+    <script>
+        var cb = function() {
+            var l = document.createElement('link');
+            l.rel = 'stylesheet';
+            l.href = '../css/style.css';
+            var h = document.getElementsByTagName('head')[0];
+            h.parentNode.insertBefore(l, h);
+        };
+        var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+            webkitRequestAnimationFrame || msRequestAnimationFrame;
+        if (raf) raf(cb);
+        else window.addEventListener('load', cb);
+    </script>
     <noscript>
         <style>
             body {
@@ -31,7 +44,6 @@
             body:before {
                 display: none !important;
             }
-
         </style>
     </noscript>
 </head>
@@ -112,10 +124,9 @@
                 });
             })();
         }
-
     </script>
     <!-- Google Analytics -->
-    <script>
+    <!--script>
         (function(i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
             i[r] = i[r] || function() {
@@ -130,7 +141,7 @@
         ga('create', 'UA-66495186-1', 'auto');
         ga('send', 'pageview');
 
-    </script>
+    </script-->
     <!-- End Google Analytics -->
 </body>
 
