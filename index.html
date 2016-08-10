@@ -17,92 +17,37 @@
     <meta name="author" content="ratan" />
     <meta name="keywords" content="poetry,story,photography,music,books,doodles,running,cycling,horology,aviation" />
     <!--meta property="og:image" content="../assets/screenshot.jpg" /-->
-    <!--link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,200,400" rel="stylesheet" type="text/css" /-->
     <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
     <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
     <link href='/css/style.css' rel='stylesheet' type='text/css'>
     <link href='/css/gfont.css' rel='stylesheet' type='text/css'>
     <link href='http://www.ratan.me/css/footer.css' rel='stylesheet' type='text/css'>
-    <!--script>
-        var cb = function() {
-            var l = document.createElement('link');
-            l.rel = 'stylesheet';
-            l.href = '/css/icons.css';
-            var h = document.getElementsByTagName('head')[0];
-            h.parentNode.insertBefore(l, h);
-        };
-        var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-            webkitRequestAnimationFrame || msRequestAnimationFrame;
-        if (raf) raf(cb);
-        else window.addEventListener('load', cb);
-    </script-->
-    <noscript>
-        <style>
-            body {
-                overflow: auto !important;
-            }
-            
-            body:before {
-                display: none !important;
-            }
-        </style>
-    </noscript>
+
 </head>
 
 <body class="is-loading">
     <div id="wrapper">
         <div id="main">
             <div class="inner">
-                <!--div class="image" id="image02"><img src="../assets/ratan.jpg" alt="" /></div-->
                 <h1 id="text01">ratan</h1>
                 <div align=center id="table01">lifehacker.</div>
-                <!--div class="table-wrapper" id="table01">
-                    <div class="table-inner" align=center>
-                        <table>
-                            <tbody>
-                                <tr>
-                                    <td>experienced</td>
-                                    <!--td>software engineer since 2004.</td>
-                                </tr>
-                                <tr>
-                                    <td>agile</td>
-                                    <td>rapid release-feedback-fix cycle.</td>
-                                </tr>
-                                <tr>
-                                    <td>green</td>
-                                    <td>paperless. vegan.</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div-->
-                <!--hr id="divider01" /-->
-
-                <!--ul class="icons" id="icons01">
-                    <li><a class="icon icon-946 n01" href="http://blog.ratan.me" target=_blank title="blog"><span class="label">blogger</span></a></li>
-                    <li><a class="icon icon-90a n02" href="mailto:hi@ratan.me" title="email"><span class="label">email</span></a></li>
-                    <li><a class="icon icon-905 n03" href="http://twitter.com/imratan19" target=_blank1 title="twitter"><span class="label">twitter</span></a></l->
-                </ul-->
             </div>
         </div>
-          </div>
-       
-  
+    </div>
 
-
-<!--footer class="site-footer">
-<div  align=center>
-<a  href=http://blog.ratan.me target="_blank_a">blog</a> | <a href="mailto:ratan@protonmail.com">email</a>
-</div>
-</footer-->
-   
+    <footer class="site-footer">
+        <div  align=center>
+            <a  href=http://blog.ratan.me target="_blank_a">blog</a> | <a href="mailto:ratan@protonmail.com">email</a>
+        </div>
+    </footer>
+    
 
     <script>
         var d = document,
-            b = d.body,
-            on = addEventListener,
-            st = setTimeout,
-            ct = clearTimeout;
+        b = d.body,
+        on = addEventListener,
+        st = setTimeout,
+        ct = clearTimeout;
         on('load', function() {
             st(function() {
                 b.className = b.className.replace(/\bis-loading\b/, 'is-playing');
@@ -113,13 +58,13 @@
         });
         b.tabIndex = -1;
         var rfk = '-webkit-overflow-scrolling',
-            rf = function() {
-                b.style[rfk] = 'auto';
-                st(function() {
-                    b.style[rfk] = 'touch';
-                    b.focus();
-                }, 100);
-            };
+        rf = function() {
+            b.style[rfk] = 'auto';
+            st(function() {
+                b.style[rfk] = 'touch';
+                b.focus();
+            }, 100);
+        };
         on('load', rf);
         on('orientationchange', rf);
         if (navigator.userAgent.match(/(MSIE|rv:11\.0)/)) {
