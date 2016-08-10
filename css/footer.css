@@ -12,7 +12,7 @@
      @extend %clearfix; 
  
  
-     @include media-query($on-laptop) { 
+     @include media-query(800px) { 
          max-width: -webkit-calc(800px - (30px)); 
          max-width:         740px; 
          padding-right: 15px; 
