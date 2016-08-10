@@ -1,0 +1,77 @@
+/** 
+94  * Site footer 
+95  */ 
+96 .site-footer { 
+97     border-top: 0px solid $grey-color-light; 
+98     padding: $spacing-unit 0; 
+99 } 
+100 
+ 
+101 .footer-heading { 
+102     font-size: 18px; 
+103     margin-bottom: $spacing-unit / 2; 
+104 } 
+105 
+ 
+106 .contact-list, 
+107 .social-media-list { 
+108     list-style: none; 
+109     margin-left: 0; 
+110 } 
+111 
+ 
+112 .footer-col-wrapper { 
+113     font-size: 15px; 
+114     color: $grey-color; 
+115     margin-left: -$spacing-unit / 2; 
+116     @extend %clearfix; 
+117 } 
+118 
+ 
+119 .footer-col { 
+120     float: left; 
+121     margin-bottom: $spacing-unit / 2; 
+122     padding-left: $spacing-unit / 2; 
+123 } 
+124 
+ 
+125 .footer-col-1 { 
+126     width: -webkit-calc(35% - (#{$spacing-unit} / 2)); 
+127     width:         calc(35% - (#{$spacing-unit} / 2)); 
+128 } 
+129 
+ 
+130 .footer-col-2 { 
+131     width: -webkit-calc(20% - (#{$spacing-unit} / 2)); 
+132     width:         calc(20% - (#{$spacing-unit} / 2)); 
+133 } 
+134 
+ 
+135 .footer-col-3 { 
+136     width: -webkit-calc(45% - (#{$spacing-unit} / 2)); 
+137     width:         calc(45% - (#{$spacing-unit} / 2)); 
+138 } 
+139 
+ 
+140 @include media-query($on-laptop) { 
+141     .footer-col-1, 
+142     .footer-col-2 { 
+143         width: -webkit-calc(50% - (#{$spacing-unit} / 2)); 
+144         width:         calc(50% - (#{$spacing-unit} / 2)); 
+145     } 
+146 
+ 
+147     .footer-col-3 { 
+148         width: -webkit-calc(100% - (#{$spacing-unit} / 2)); 
+149         width:         calc(100% - (#{$spacing-unit} / 2)); 
+150     } 
+151 } 
+152 
+ 
+153 @include media-query($on-palm) { 
+154     .footer-col { 
+155         float: none; 
+156         width: -webkit-calc(100% - (#{$spacing-unit} / 2)); 
+157         width:         calc(100% - (#{$spacing-unit} / 2)); 
+158     } 
+159 } 
