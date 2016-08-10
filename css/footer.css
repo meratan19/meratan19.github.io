@@ -3,19 +3,24 @@
 }
 html, body {
   height: 100%;
+  font-family: "Source Sans Pro", "Source Sans Pro", "Source Sans Pro", sans-serif; 
+  line-height: 1.5;
+  font-size: 16.5px;
 }
 .page-wrap {
   min-height: 100%;
   /* equal to footer height */
-  margin-bottom: -142px; 
+  margin-bottom: -10px; 
 }
 .page-wrap:after {
   content: "";
   display: block;
 }
 .site-footer, .page-wrap:after {
-  height: 142px; 
+  height: 14px; 
 }
 .site-footer {
-  background: orange;
+  background: white;
 }
+
+
