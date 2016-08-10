@@ -9,7 +9,6 @@ html, body {
   font-weight: 300;
   color: "#828282";
   overflow: visible;
-  word-spacing: 5px;
 }
 
 a {
@@ -30,4 +29,5 @@ a {
 }
 .site-footer {
   background: white;
+  word-spacing: 5px;
 }
