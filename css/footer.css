@@ -1,6 +1,26 @@
 /** 
 94  * Site footer 
 95  */ 
+
+.foot-wrapper { 
+     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2)); 
+     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2)); 
+     margin-right: auto; 
+     margin-left: auto; 
+     padding-right: $spacing-unit; 
+     padding-left: $spacing-unit; 
+     @extend %clearfix; 
+ 
+ 
+199     @include media-query($on-laptop) { 
+200         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit})); 
+201         max-width:         calc(#{$content-width} - (#{$spacing-unit})); 
+202         padding-right: $spacing-unit / 2; 
+203         padding-left: $spacing-unit / 2; 
+204     } 
+205 } 
+
+
 96 .site-footer { 
 97     border-top: 0px solid $grey-color-light; 
 98     padding: $spacing-unit 0; 
