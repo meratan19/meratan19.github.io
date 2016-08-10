@@ -5,8 +5,8 @@ html, body {
   height: 100%;
   font-family: "Source Sans Pro", "Source Sans Pro", "Source Sans Pro", sans-serif; 
   line-height: 1.5;
-  font-size: 16.5px;
-  color: black;
+  font-size: 15px;
+  color: "#828282";
 }
 .page-wrap {
   min-height: 100%;
