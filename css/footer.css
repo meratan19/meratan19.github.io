@@ -7,9 +7,13 @@ html, body {
   line-height: 1.5;
   font-size: 15px;
   color: "#828282";
-  text-decoration: none;
   overflow: visible;
 }
+
+a {
+  text-decoration: none;
+}
+
 .page-wrap {
   min-height: 100%;
   /* equal to footer height */
