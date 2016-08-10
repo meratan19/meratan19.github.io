@@ -8,7 +8,7 @@ html, body {
   font-size: 15px;
   font-weight: 300;
   color: "#828282";
-  overflow: visible;
+  overflow: auto;
 }
 
 a {
@@ -30,4 +30,6 @@ a {
 .site-footer {
   background: white;
   word-spacing: 5px;
+  position: fixed;
+  bottom: 0px;
 }
