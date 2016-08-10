@@ -1,105 +1,21 @@
-/** 
-  * Site footer 
-  */ 
-
-.foot-wrapper { 
-      max-width: -webkit-calc(800px - (30px * 2)); 
-     max-width:         740px; 
-     margin-right: auto; 
-     margin-left: auto; 
-     padding-right: 30px; 
-     padding-left: 30px; 
-    /* @extend %clearfix; */
- 
- 
-    /* @include media-query(800px) { 
-         max-width: -webkit-calc(800px - (30px)); 
-         max-width:         740px; 
-         padding-right: 15px; 
-         padding-left: 15px; 
-     } */
- } 
-
-
-.site-footer { 
-    border-top: 1px solid lighten("#828282", 40%);
-    padding: 30px 0; 
-} 
- 
- 
- .footer-heading { 
-     font-size: 18px; 
-     margin-bottom: 15px; 
- } 
- 
- 
- .contact-list, 
- .social-media-list { 
-     list-style: none; 
-     margin-left: 0; 
- } 
- 
- 
- .footer-col-wrapper { 
-     font-size: 15px; 
-     color: "#828282"; 
-     margin-left: -15px; 
-     /*@extend %clearfix;*/ 
- } 
- 
- 
- .footer-col { 
-     float: left; 
-     margin-bottom: 15px; 
-     padding-left: 15px; 
- } 
- 
- 
- .footer-col-1 { 
-     width: -webkit-calc(35% - (30px / 2)); 
-     width:         calc(35% - (30 px / 2)); 
- } 
- 
- 
- .footer-col-2 { 
-      width: -webkit-calc(20% - (30px / 2)); 
-     width:         calc(20% - (30px / 2)); 
- } 
- 
- 
- .footer-col-3 { 
-     width: -webkit-calc(45% - (30px / 2)); 
-     width:         calc(45% - (30px/ 2)); 
- } 
- 
-
- /*@include media-query(800px) { 
-     .footer-col-1, 
-     .footer-col-2 { 
-         width: -webkit-calc(50% - (30px / 2)); 
-         width:         calc(50% - (30px / 2)); 
-     } */
- 
-
-     .footer-col-3 { 
-         width: -webkit-calc(100% - (30px / 2)); 
-         width:         calc(100% - (30px / 2)); 
-     } 
- } 
- 
-.page-link { 
-         color: #000; 
-         line-height: 1.5; 
- 
-
-        /* &:not(:first-child) { 
-             margin-left: 20px; 
-         } 
-
- @include media-query(600px) { 
-     .footer-col { 
-         float: none; 
-         width: -webkit-calc(100% - (30px / 2)); 
-         width:         calc(100% - (30px / 2)); 
-     } */
- } 
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 142px; 
+}
+.site-footer {
+  background: orange;
+}
