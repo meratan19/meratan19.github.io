@@ -1,6 +1,6 @@
-html, body {
-  width: 100%;
-  height: 100%;
+@media all {
+  
+  html {
 }
 
   body {
@@ -11,7 +11,8 @@ html, body {
     color: #000;
     background-color: #fff;
     -webkit-text-size-adjust: 100%;
-    text-align: center
+  width: 100%;
+  height: 100%;
 }
 
 table.center_align {
@@ -24,3 +25,4 @@ table.center_align:before {
         height: 100%;
         vertical-align: middle;
     }
+}
