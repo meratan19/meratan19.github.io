@@ -1,4 +1,4 @@
-@media all {
+@media all{
     html {
         width: 100%;
         height: 100%;
@@ -25,17 +25,17 @@
     }
     
     a {
-color: #000;
-text-decoration: none;
+        color: #000;
+        text-decoration: none;
+    }
 
-a:visited {
-color: #000;
-}
+    a:visited {
+        color: #000;
+    }
 
-a:hover {
-color: #000;
-text-decoration: underline;
-}
-}
+    a:hover {
+        color: #000;
+        text-decoration: underline;
+    }
 
 }
