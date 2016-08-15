@@ -1,41 +1,41 @@
 @media all{
-    html {
-        width: 100%;
-        height: 100%;
-    }
+	html {
+		width: 100%;
+		height: 100%;
+	}
 
-    body {
-        font-family: "Source Sans Pro","Source Sans Pro","Source Sans Pro",sans-serif;
-        font-size: 18px;
-        line-height: 1.5;
-        font-weight: 200;
-        color: #000;
-        background-color: #fff;
-        -webkit-text-size-adjust: 100%;
-        width: 100%;
-        height: 100%;
-        overflow:hidden;
-    }
+	body {
+		font-family: "Source Sans Pro","Source Sans Pro","Source Sans Pro",sans-serif;
+		font-size: 18px;
+		line-height: 1.5;
+		font-weight: 200;
+		color: #000;
+		background-color: #fff;
+		-webkit-text-size-adjust: 100%;
+		width: 100%;
+		height: 100%;
+		overflow:hidden;
+	}
 
-    .centered {
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-    }
-    
-    a {
-        color: #000;
-        text-decoration: none;
-    }
+	.centered {
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
+	
+	a {
+		color: #000;
+		text-decoration: none;
+	}
 
-    a:visited {
-        color: #000;
-    }
+	a:visited {
+		color: #000;
+	}
 
-    a:hover {
-        color: #000;
-        text-decoration: underline;
-    }
+	a:hover {
+		color: #000;
+		text-decoration: underline;
+	}
 
 }
