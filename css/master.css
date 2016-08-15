@@ -1,25 +1,25 @@
 @media all {
-  
-  html {
-    width: 100%;
-  height: 100%;
-}
+    html {
+        width: 100%;
+        height: 100%;
+    }
 
-  body {
-    font-family: "Source Sans Pro", "Source Sans Pro", "Source Sans Pro", sans-serif;
-    font-size: 22px;
-    line-height: 1.5;
-    font-weight: 300;
-    color: #000;
-    background-color: #fff;
-    -webkit-text-size-adjust: 100%;
-  width: 100%;
-  height: 100%;
-}
+    body {
+        font-family: "Source Sans Pro","Source Sans Pro","Source Sans Pro",sans-serif;
+        font-size: 18px;
+        line-height: 1.5;
+        font-weight: 200;
+        color: #000;
+        background-color: #fff;
+        -webkit-text-size-adjust: 100%;
+        width: 100%;
+        height: 100%;
+    }
 
-.centered {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    .centered {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
 }
