@@ -10,5 +10,13 @@ html, body {
     font-weight: 300;
     color: #000;
     background-color: #fff;
-    -webkit-text-size-adjust: 100%
+    -webkit-text-size-adjust: 100%;
+    text-align: center
 }
+
+table.center_align:before {
+        content: '';
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+    }
