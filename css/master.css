@@ -56,9 +56,9 @@
 	figure figcaption {
 		text-align: center;
 		font-size: 13.5px;
-		line-height: 1;
     		color: #828282;
-    		margin:0px 5px 0px 0px;
+    		margin:0px 8px 0px 0px;
+    		line-height: 1;
 	}
 	
 	table {
