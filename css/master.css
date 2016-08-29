@@ -50,7 +50,11 @@
     		margin-left: auto;
     		margin-right: auto;
     		border-style: inset;
-    		border-width: 1px;
+    		border-width: 0px;
+    		height:0.5px;
+    		border-width:0;
+    		color:#f7f7f7f;
+    		background-color:#f7f7f7f;
 	}
 	
 	figure figcaption {
