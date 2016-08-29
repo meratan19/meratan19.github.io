@@ -52,5 +52,11 @@
     		border-style: inset;
     		border-width: 1px;
 	}
-
+	
+	figure figcaption {
+		text-align: center;
+		font-size: 16.5px;
+    		color: #828282;
+	}
+	
 }
