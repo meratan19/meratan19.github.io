@@ -19,7 +19,7 @@
 	}
 
 	.centered {
-		position: absolute; /*fixed;*/
+		position: fixed;
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%,-50%);
@@ -31,12 +31,10 @@
 	}
 	
 	.img_top {
-		position: absolute; /*fixed;*/
-		top: 56%;
-		left: 41%;
-		transform: translate(-50%,-50%);
-		padding: 0px;
-		z-index: 3;
+		position: fixed;
+		top:84%;
+		left:16%;
+		z-index:999;"
 	}
 	
 	a {
