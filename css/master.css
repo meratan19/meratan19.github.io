@@ -32,8 +32,8 @@
 	
 	.img_top {
 		position: absolute; /*fixed;*/
-		top: 50%;
-		left: 50%;
+		top: 47%;
+		left: 32%;
 		transform: translate(-50%,-50%);
 		padding: 0px;
 		z-index: 3;
