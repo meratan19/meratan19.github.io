@@ -19,7 +19,7 @@
 	}
 
 	.centered {
-		position: fixed;
+		position: absolute; /*fixed;*/
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%,-50%);
@@ -27,6 +27,7 @@
 		box-shadow: -4px 4px 9px #828282;
 		word-spacing: 20px; 
 		background-color: #fff;
+		z-index: 2;
 	}
 	
 	a {
