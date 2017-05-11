@@ -8,7 +8,7 @@
 		font-family: "Source Sans Pro","Source Sans Pro","Source Sans Pro",sans-serif;
 		font-size: 24px;
 		line-height: 1.25;
-		font-weight: 450;
+		font-weight: 424;
 		color: #000;
 		background-color: #ffffff;
 		-webkit-text-size-adjust: 100%;
@@ -47,27 +47,6 @@
 	a:hover {
 		color: #000;
 		text-decoration: none;
-	}
-	
-	hr {
-    		display: block;
-    		/*margin-top: 0.5em;
-    		margin-bottom: 0.5em;
-    		margin-left: auto;
-    		margin-right: auto;*/
-    		border-style: inset;
-    		border-width: 0px;
-    		height:1px;
-    		border-width:0;
-    		color:#828282;
-    		background-color:#828282;
-	}
-	
-	figure figcaption {
-		text-align: center;
-		font-size: 13.5px;
-    		color: #000;
-    		line-height: 1;
 	}
 	
 	table {
